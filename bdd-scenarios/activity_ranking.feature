@@ -71,5 +71,5 @@ Scenario: Loading indicator appears while fetching results
 Scenario: No suggestions when search field is empty
   Given the user is on the search screen
   When the search field is empty
-  Then no autocomplete suggestions should be displayed
+  Then no autocomplete suggestions should be displayed 
   
