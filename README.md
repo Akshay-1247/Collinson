@@ -13,3 +13,34 @@ Java
 Appium 2.x
 TestNG
 Maven
+
+## Project Structure
+```
+activity-ranking-mobile-tests
+│
+├── README.md
+├── pom.xml
+├── testng.xml
+├── .gitignore
+│
+├── bdd-scenarios
+│   └── activity_ranking.feature
+│
+├── manual-tests
+│   └── activity-ranking-test-cases.md
+│
+└── src
+    └── test
+        └── java
+            │
+            ├── base
+            │   └── BaseTest.java
+            │
+            ├── pages
+            │   ├── BasePage.java
+            │   ├── SearchPage.java
+            │   └── ResultsPage.java
+            │
+            └── tests
+                └── ActivityRankingTest.java
+```
